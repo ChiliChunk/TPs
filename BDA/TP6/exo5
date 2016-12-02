@@ -1,0 +1,8 @@
+DELETE FROM plan_table;
+EXPLAIN PLAN SET statement_id = 'Q1' FOR SELECT idD, nom, prenom
+FROM Gagner_Ind G, Sportif S, Discipline D
+WHERE G.idS = S.idS
+AND G.IDD = D.IDD
+AND medaille = 'G';
+SELECT id, parent_id, operation, options, object_name, filter_predicates, access_predicates,
+projection FROM PLAN_TABLE WHERE statement_id = 'Q1';

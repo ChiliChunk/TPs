@@ -1,0 +1,23 @@
+==================================
+4. Le polymorphisme en vraie grandeur
+==================================
+
+
+Questions - Analyse du code écrit :
+
+Analyser le code de AgenceBancaire. Quelle est la classe de comptes sur laquelle est définie AgenceBancaire ?
+- La classe compte.
+
+Analyser le code de ClasseApplicationAgenceBancaire. A quels "moments" précis se pose-t-on la question du type de compte réellement manipulé ?
+- Lors de sa création.
+
+Analyser le code de ClasseApplicationAgenceBancaire. Quel type manipulent les méthodes voirUnCompte(), supprimerUnCompte(), deposerSurUnCompte(), retirerSurUnCompte ?
+- Elles manipulent des type de "Compte".
+
+Analyser le code de ClasseApplicationAgenceBancaire. Quel type manipule la méthode transfertEntreDeuxComptes() ?
+- La méthode manipule des type de "Compte".
+
+Imaginons que nous ajoutions une classe ComptePlacement comme sous-classe de CompteEpargne. Que faut-il modifier dans ClasseApplicationAgenceBancaire pour "intégrer" cette nouvelle classe ?
+- Il ne faut absolument rien modifier.
+
+====================================================================
