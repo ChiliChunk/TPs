@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;CPOA-TP04&apos;&#x0D;&#x0A;- Original project: &apos;CPOA-TP04&apos;&#x0D;&#x0A;- Original element: &apos;CPOA-TP04/src/__MACOSX.src&apos;" description="Delete element" element1="/src&lt;__MACOSX.src" element2="/src&lt;__MACOSX" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1481295416682" subPackages="false" version="1.0"/>
+</session>
