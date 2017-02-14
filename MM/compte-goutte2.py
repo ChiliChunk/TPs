@@ -6,6 +6,7 @@ def cpi(N):
 	s = ""
 	p, q = 1, 3
 	while N >= 0:
+		print N
 		p, q = p+q, q+2
 		a, b, a1, b1 = a1, b1, p*a+q*a1, p*b+q*b1
 		d, d1 = a//b, a1//b1
@@ -17,10 +18,10 @@ def cpi(N):
 
 	dateFin = time.time()
 	temps = dateFin - dateDebut
-	# return s[0] + "," + s[1:] , temps
+	#print s[0] + "," + s[1:] , temps
 	return temps
 
-n= 6
+n= 10000000
 val = cpi(n)
 print("nb iterations: "+str(n))
 print ('en '+str(val)+' s')
